@@ -1,5 +1,6 @@
 class UrlString{
 	public String res = "";
+/*
 	public UrlString(String arg){
 		boolean last_space = false;
 		for(int i = 0; i < arg.length(); i++){
@@ -17,5 +18,8 @@ class UrlString{
 			}
 		}
 	}
-
+*/
+	public UrlString(char[] str){
+		
+	}
 }
