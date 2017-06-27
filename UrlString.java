@@ -1,6 +1,6 @@
 class UrlString{
 
-	public String res = "";
+	public char[] res;
 	public UrlString(char[] str){
 
 		int new_array_size = 0;
@@ -34,13 +34,11 @@ class UrlString{
 
 		first_char_found = false;
 		char new_string[] = new char[new_array_size];
-		System.out.println(new_string.length);
 		int new_string_index = 0;
 
 		for(i = 0; i < str.length; i++){
 
 			char this_char = str[i];
-			System.out.println(this_char);
 			if(first_char_found == true){
 
 				if(this_char == ' '){
@@ -70,7 +68,7 @@ class UrlString{
 
 		}
 		
-		System.out.println(new_string);
+		res = new_string;
 		
 
 	}

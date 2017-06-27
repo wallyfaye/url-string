@@ -5,7 +5,7 @@ class _Demo {
 			System.exit(0);
 		}
 		UrlString url_string = new UrlString(args[0].toCharArray());
-		String result = url_string.res; 
+		String result = new String(url_string.res); 
 		System.out.println("The result of \"" + args[0] + "\" is: " + result);
 	}
 }
